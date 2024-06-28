@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {
+  };
+  objectVersion = 46;
+  objects = {
+
+/* Begin PBXBuildFile section */
+    08FB7793FE84155DC02AAC07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7791FE84155DC02AAC07 /* AppDelegate.m */; };
+    08FB7798FE84155DC02AAC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FB7795FE84155DC02AAC07 /* Main.storyboard */; };
+    08FB7799FE84155DC02AAC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FB7797FE84155DC02AAC07 /* LaunchScreen.storyboard */; };
+    08FB779CFE84155DC02AAC07 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB779AFEB555DC02AAC07 /* MainViewController.m */; };
+    08FB779EFE84155DC02AAC07 /* DeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB779DFE84155DC02AAC07 /* DeviceController.m */; };
+    08FB7793FE84155DC02AAC07 /* Device.h in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7791FE84155DC02AAC07 /* Device.h */; };
+    08FB7798FE84155DC02AAC07 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7795FE84155DC02AAC07 /* Device.m */; };
+    08FB7799FE84155DC02AAC07 /* Light.h in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7797FE84155DC02AAC07 /* Light.h */; };
+    08FB779CFE84155DC02AAC07 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB779AFEB555DC02AAC07 /* Light.m */; };
+    08FB779EFE84155DC02AAC07 /* Thermostat.h in Sources */ = {isa = PBXBuildFile; fileRef = 08FB779DFE84155DC02AAC07 /* Thermostat.h */; };
+    08FB7793FE84155DC02AAC07 /* Thermostat.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7791FE84155DC02AAC07 /* Thermostat.m */; };
+    08FB7798FE84155DC02AAC07 /* SecurityCamera.h in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7795FE84155DC02AAC07 /* SecurityCamera.h */; };
+    08FB7799FE84155DC02AAC07 /* SecurityCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7797FE84155DC02AAC07 /* SecurityCamera.m */; };
+    08FB779CFE84155DC02AAC07 /* NetworkManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 08FB779AFEB555DC02AAC07 /* NetworkManager.h */; };
+    08FB779EFE84155DC02AAC07 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB779DFE84155DC02AAC07 /* NetworkManager.m */; };
+    08FB7793FE84155DC02AAC07 /* DeviceManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7791FE84155DC02AAC07 /* DeviceManager.h */; };
+    08FB7798FE84155DC02AAC07 /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7795FE84155DC02AAC07 /* DeviceManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+    08FB7790FE84155DC02AAC07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.h; sourceTree = "<group>"; };
+    08FB7791FE84155DC02AAC07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+    08FB7792FE84155DC02AAC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    08FB7795FE84155DC02AAC07 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+    08FB7797FE84155DC02AAC07 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+    08FB7798FE84155DC02AAC07 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.h; sourceTree = "<group>"; };
+    08FB779AFEB555DC02AAC07 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+    08FB779CFE84155DC02AAC07 /* DeviceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceController.h; sourceTree = "<group>"; };
+    08FB779DFE84155DC02AAC07 /* DeviceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceController.m; sourceTree = "<group>"; };
+    08FB7790FE84155DC02AAC07 /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.h; sourceTree = "<group>"; };
+    08FB7791FE84155DC02AAC07 /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+    08FB7795FE84155DC02AAC07 /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.h; sourceTree = "<group>"; };
+    08FB7797FE84155DC02AAC07 /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+    08FB7798FE84155DC02AAC07 /* Thermostat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thermostat.h; sourceTree = "<group>"; };
+    08FB779AFEB555DC02AAC07 /* Thermostat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thermostat.m; sourceTree = "<group>"; };
+    08FB779CFE84155DC02AAC07 /* SecurityCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityCamera.h; sourceTree = "<group>"; };
+    08FB779DFE84155DC02AAC07 /* SecurityCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityCamera.m; sourceTree = "<group>"; };
+    08FB7790FE84155DC02AAC07 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.h; sourceTree = "<group>"; };
+    08FB7791FE84155DC02AAC07 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+    08FB7792FE84155DC02AAC07 /* DeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManager.h; sourceTree = "<group>"; };
+    08FB7795FE84155DC02AAC07 /* DeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    08FB778FFE84155DC02AAC07 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+    08FB7785FE84155DC02AAC07 = {
+      isa = PBXGroup;
+      children = (
+        08FB7788FE84155DC02AAC07 /* AppDelegate.h */,
+        08FB7791FE84155DC02AAC07 /* AppDelegate.m */,
+        08FB7792FE84155DC02AAC07 /* Info.plist */,
+        08FB7795FE84155DC02AAC07 /* Main.storyboard */,
+        08FB7797FE84155DC02AAC07 /* LaunchScreen.storyboard */,
+        08FB7798FE84155DC02AAC07 /* MainViewController.h */,
+        08FB779AFEB555DC02AAC07 /* MainViewController.m */,
+        08FB779CFE84155DC02AAC07 /* DeviceController.h */,
+        08FB779DFE84155DC02AAC07 /* DeviceController.m */,
+        08FB7790FE84155DC02AAC07 /* Device.h */,
+        08FB7791FE84155DC02AAC07 /* Device.m */,
+        08FB7795FE84155DC02AAC07 /* Light.h */,
+        08FB7797FE84155DC02AAC07 /* Light.m */,
+        08FB7798FE84155DC02AAC07 /* Thermostat.h */,
+        08FB779AFEB555DC02AAC07 /* Thermostat.m */,
+        08FB779CFE84155DC02AAC07 /* SecurityCamera.h */,
+        08FB779DFE84155DC02AAC07 /* SecurityCamera.m */,
+        08FB7790FE84155DC02AAC07 /* NetworkManager.h */,
+        08FB7791FE84155DC02AAC07 /* NetworkManager.m */,
+        08FB7792FE84155DC02AAC07 /* DeviceManager.h */,
+        08FB7795FE84155DC02AAC07 /* DeviceManager.m */,
+      );
+      name = SmartHomeController;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+    08FB7796FE84155DC02AAC07 /* SmartHomeController */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 08FB7798FE84155DC02AAC07 /* Build configuration list for PBXNativeTarget "SmartHomeController" */;
+      buildPhases = (
+        08FB778FFE84155DC02AAC07 /* Frameworks */,
+        08FB7793FE84155DC02AAC07 /* Sources */,
+        08FB7798FE84155DC02AAC07 /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = SmartHomeController;
+      productName = SmartHomeController;
+      productReference = 08FB778FFE84155DC02AAC07 /* SmartHomeController.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+    08FB7785FE84155DC02AAC07 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1100;
+      };
+      buildConfigurationList = 08FB7798FE84155DC02AAC07 /* Build configuration list for PBXProject "SmartHomeController" */;
+      compatibilityVersion = "Xcode 3.2";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 08FB7785FE84155DC02AAC07;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        08FB7796FE84155DC02AAC07 /* SmartHomeController */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+    08FB7793FE84155DC02AAC07 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        08FB7793FE84155DC02AAC07 /* AppDelegate.m in Sources */,
+        08FB779CFE84155DC02AAC07 /* MainViewController.m in Sources */,
+        08FB779EFE84155DC02AAC07 /* DeviceController.m in Sources */,
+        08FB7793FE84155DC02AAC07 /* Device.h in Sources */,
+        08FB7798FE84155DC02AAC07 /* Device.m in Sources */,
+        08FB7799FE84155DC02AAC07 /* Light.h in Sources */,
+        08FB779CFE84155DC02AAC07 /* Light.m in Sources */,
+        08FB779EFE84155DC02AAC07 /* Thermostat.h in Sources */,
+        08FB7793FE84155DC02AAC07 /* Thermostat.m in Sources */,
+        08FB7798FE84155DC02AAC07 /* SecurityCamera.h in Sources */,
+        08FB7799FE84155DC02AAC07 /* SecurityCamera.m in Sources */,
+        08FB779CFE84155DC02AAC07 /* NetworkManager.h in Sources */,
+        08FB779EFE84155DC02AAC07 /* NetworkManager.m in Sources */,
+        08FB7793FE84155DC02AAC07 /* DeviceManager.h in Sources */,
+        08FB7798FE84155DC02AAC07 /* DeviceManager.m in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+    08FB7798FE84155DC02AAC07 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        08FB7798FE84155DC02AAC07 /* Main.storyboard in Resources */,
+        08FB7799FE84155DC02AAC07 /* LaunchScreen.storyboard in Resources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+    08FB7790FE84155DC02AAC07 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+        CLANG_CXX_LIBRARY = "libc++";
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+        ENABLE_STRICT_OBJC_MSGSEND = YES;
+        GCC_C_LANGUAGE_STANDARD = gnu99;
+        GCC_PREPROCESSOR_DEFINITIONS = (
+          "DEBUG=1",
+          "$(inherited)",
+        );
+        INFOPLIST_FILE = SmartHomeController/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SKIP_INSTALL = YES;
+        SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Debug;
+    };
+    08FB7792FE84155DC02AAC07 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+        CLANG_CXX_LIBRARY = "libc++";
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+        ENABLE_NS_ASSERTIONS = NO;
+        ENABLE_STRICT_OBJC_MSGSEND = YES;
+        GCC_C_LANGUAGE_STANDARD = gnu99;
+        INFOPLIST_FILE = SmartHomeController/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    08FB7798FE84155DC02AAC07 /* Build configuration list for PBXNativeTarget "SmartHomeController" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        08FB7790FE84155DC02AAC07 /* Debug */,
+        08FB7792FE84155DC02AAC07 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    08FB7798FE84155DC02AAC07 /* Build configuration list for PBXProject "SmartHomeController" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        08FB7790FE84155DC02AAC07 /* Debug */,
+        08FB7792FE84155DC02AAC07 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+
+  };
+  rootObject = 08FB7785FE84155DC02AAC07 /* Project object */;
+}
