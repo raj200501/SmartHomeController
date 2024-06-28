@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="mainViewControllerScene">
+            <objects>
+                <viewController id="mainViewController" customClass="MainViewController" customModule="SmartHomeController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mainView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lightsButton">
+                                <rect key="frame" x="107" y="100" width="200" height="50"/>
+                                <state key="normal" title="Control Lights"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="thermostatButton">
+                                <rect key="frame" x="107" y="200" width="200" height="50"/>
+                                <state key="normal" title="Control Thermostat"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cameraButton">
+                                <rect key="frame" x="107" y="300" width="200" height="50"/>
+                                <state key="normal" title="View Security Camera"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lightsButton" firstAttribute="top" secondItem="mainView" secondAttribute="top" constant="100" id="lightsButtonTop"/>
+                            <constraint firstItem="lightsButton" firstAttribute="centerX" secondItem="mainView" secondAttribute="centerX" id="lightsButtonCenterX"/>
+                            <constraint firstItem="thermostatButton" firstAttribute="top" secondItem="lightsButton" secondAttribute="bottom" constant="50" id="thermostatButtonTop"/>
+                            <constraint firstItem="thermostatButton" firstAttribute="centerX" secondItem="mainView" secondAttribute="centerX" id="thermostatButtonCenterX"/>
+                            <constraint firstItem="cameraButton" firstAttribute="top" secondItem="thermostatButton" secondAttribute="bottom" constant="50" id="cameraButtonTop"/>
+                            <constraint firstItem="cameraButton" firstAttribute="centerX" secondItem="mainView" secondAttribute="centerX" id="cameraButtonCenterX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Smart Home Controller" id="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="firstResponder" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+
+        <!-- Device Controller Scene -->
+        <scene sceneID="deviceControllerScene">
+            <objects>
+                <viewController id="deviceViewController" customClass="DeviceController" customModule="SmartHomeController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="deviceView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="deviceLabel">
+                                <rect key="frame" x="107" y="100" width="300" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="deviceLabel" firstAttribute="top" secondItem="deviceView" secondAttribute="top" constant="100" id="deviceLabelTop"/>
+                            <constraint firstItem="deviceLabel" firstAttribute="centerX" secondItem="deviceView" secondAttribute="centerX" id="deviceLabelCenterX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="deviceNavigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="deviceFirstResponder" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="373" y="375"/>
+        </scene>
+    </scenes>
+</document>
