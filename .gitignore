@@ -1,0 +1,4 @@
+/build/
+/bin/
+/data/state.db
+/data/*.db
